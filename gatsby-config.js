@@ -1,20 +1,17 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitle: `Andrew-Efurhievwe`,
+    siteTitleAlt: `Andrew Efurhievwe - Portfolio`,
     siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteUrl: `https://andrew-efurhievwe.netlify.app`,
+    siteDescription: `Get to know more about me`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `Andrew Efurhievwe`,
   },
   plugins: [
     {
@@ -58,4 +55,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};

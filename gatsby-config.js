@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: `Andrew-Efurhievwe`,
     siteTitleAlt: `Andrew Efurhievwe - Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
+    siteHeadline: `Andrew Efurhievwe - Portfolio`,
     siteUrl: `https://andrew-efurhievwe.netlify.app`,
     siteDescription: `Get to know more about me`,
     siteLanguage: `en`,
